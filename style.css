@@ -1,0 +1,30 @@
+:root{
+ --bg color: #ffffff;
+ --text-color: black;
+ --accent-color: rgb(60, 60, 204);
+}
+
+[data-theme="dark"]{
+ --bg-color: #121212;
+ --text-color:white;
+ --accent-color: #00c3ff;
+}
+
+body{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial;
+  text-align: center;
+  padding: 50px;
+  transition: 0.3s;
+}
+
+button{
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px ;
+}
